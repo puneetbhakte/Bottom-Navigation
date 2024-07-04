@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Assignment" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">#0e2e43</item>
+
+
+    </style>
+
+    <style name="Theme.Assignment" parent="Base.Theme.Assignment" />
+    <style name="app.custom.indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:iconTint">
+            @color/blue
+        </item>
+    </style>
+
+    <style name="CustomSlider" parent="Widget.MaterialComponents.Slider">
+        <item name="android:layout_height">1dp</item>
+        <item name="icon">@drawable/back_icon</item>
+        <item name="thumbTint">@color/blue</item>
+
+    </style>
+
+
+
+   
+</resources>
